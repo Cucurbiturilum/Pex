@@ -115,5 +115,23 @@ header {
   }
 }
 .futures{
-
+  background-color: #2e3b4e;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  @media screen and (min-width: 768px) {
+    padding-top: 5rem;
+    padding-bottom: 8.8rem;
+  }
+  h6{
+    text-transform: uppercase;
+    font: $main-font;
+    color: $primary-color;
+    margin-bottom: 2rem;
+  }
+  p{
+    font: 0.9rem $main-font;
+    color: $primary-color;
+    margin-bottom: 4.35rem;
+    line-height: 1.5;
+  }
 }
