@@ -2,7 +2,7 @@ $primary-color: white;
 $main-font: 'Open Sans', sans-serif;
 
 header {
-  background: url(../images/header.png) center;
+  background-image: url(../images/header.png);
   background-size: cover;
 
   .border-bottom {
@@ -114,7 +114,8 @@ header {
     margin-bottom: 15.5rem;
   }
 }
-.futures{
+
+.futures {
   background-color: #2e3b4e;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -122,16 +123,62 @@ header {
     padding-top: 5rem;
     padding-bottom: 8.8rem;
   }
-  h6{
+
+  h6 {
     text-transform: uppercase;
     font: $main-font;
     color: $primary-color;
     margin-bottom: 2rem;
   }
-  p{
+
+  p {
     font: 0.9rem $main-font;
     color: $primary-color;
     margin-bottom: 4.35rem;
     line-height: 1.5;
+  }
+}
+
+.book {
+  background-image: url(../images/book-bg.png);
+  font: $main-font;
+  .pixels {
+    margin: auto;
+    position: relative;
+    top: -78px;
+    img{
+      width: 100%;
+    }
+  }
+  h2{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 300;
+    color: $primary-color;
+    @media screen and (min-width: 768px) {
+      margin-top: 7.8rem;
+    }
+  }
+  p{
+    color: $primary-color;
+    margin-bottom: 2rem;
+  }
+  .btn-primary {
+    width: 20rem;
+    background-color: #ffffff;
+    border: none;
+    color: #d54c63;
+    font-weight: 500;
+  }
+  .btn-group-lg > .btn, .btn-lg {
+    line-height: 3.5rem;
+  }
+  .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    background-color: #ffffff;
+    border: none;
+  }
+  .btn-primary.focus, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
   }
 }
