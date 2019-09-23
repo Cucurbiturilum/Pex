@@ -17,8 +17,6 @@ header {
 
   .navbar {
     max-width: 1360px;
-    margin: auto;
-    padding: 0;
   }
 
   .navbar-light .navbar-nav .nav-link {
@@ -124,9 +122,9 @@ header {
     padding-bottom: 8.8rem;
   }
 
-  h6 {
+  h3 {
     text-transform: uppercase;
-    font: $main-font;
+    font: 1rem $main-font;
     color: $primary-color;
     margin-bottom: 2rem;
   }
@@ -141,16 +139,16 @@ header {
 
 .book {
   background-image: url(../images/book-bg.png);
+  background-size: cover;
   font: $main-font;
+  text-align: center;
+
   .pixels {
     margin: auto;
-    position: relative;
     top: -78px;
-    img{
-      width: 100%;
-    }
   }
-  h2{
+
+  h2 {
     margin-top: 3rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -160,25 +158,109 @@ header {
       margin-top: 7.8rem;
     }
   }
-  p{
+
+  p {
     color: $primary-color;
     margin-bottom: 2rem;
   }
+
   .btn-primary {
     width: 20rem;
     background-color: #ffffff;
     border: none;
     color: #d54c63;
     font-weight: 500;
+    margin-bottom: 12rem;
   }
+
   .btn-group-lg > .btn, .btn-lg {
     line-height: 3.5rem;
   }
+
   .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
     background-color: #ffffff;
     border: none;
   }
+
   .btn-primary.focus, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
     box-shadow: none;
   }
+}
+
+.about {
+  .description {
+    h3 {
+      font: 0.9rem $main-font;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    p {
+      font: 1.2rem $main-font;
+    }
+
+    span {
+      margin-top: 2rem;
+      display: block;
+      font: 0.9rem $main-font;
+    }
+  }
+}
+
+.experience {
+  background-image: url(../images/experience.png);
+  background-size: cover;
+  padding-bottom: 6rem;
+
+  .rush {
+    background-color: rgba(82, 26, 102, 0.5);
+    padding-top: 6rem;
+    top: 6.25rem;
+    padding-bottom: 7.5rem;
+
+    div {
+      max-width: 46rem;
+
+      h2 {
+        font: 2.5rem $main-font;
+        color: $primary-color;
+        margin-bottom: 2.5rem;
+      }
+
+      p {
+        font: 1.25rem $main-font;
+        color: #a87bb7;
+        margin-bottom: 2rem;
+      }
+
+      .btn-primary {
+        width: 17.5rem;
+        background-color: #8824cd;
+        border: none;
+        margin-bottom: 1rem;
+      }
+
+      .btn-group-lg > .btn, .btn-lg {
+        line-height: 2.5rem;
+      }
+
+      .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+        background-color: #8824cd;
+        border: none;
+      }
+
+      .btn-primary.focus, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+        box-shadow: none;
+      }
+
+      span {
+        color: $primary-color;
+        font-size: 0.75rem;
+      }
+    }
+
+  }
+}
+.futures{
+  background-image: url(../images/features.png);
 }
