@@ -300,3 +300,31 @@ header {
     margin-bottom: 5.5rem;
   }
 }
+.contact{
+  background-color: #e7526b;
+  padding-top: 4.8rem;
+  h3{
+    text-transform: uppercase;
+    font: 0.9rem $main-font;
+    color: $primary-color;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+  }
+  p{
+    font: 0.9rem $main-font;
+    color: $primary-color;
+    margin-bottom: 2rem;
+  }
+  a{
+    font: 0.9rem $main-font;
+    color: $primary-color;
+    text-decoration: underline;
+  }
+}
+footer{
+  background-color: #2e3b4e;
+  p{
+    font: 0.75rem $main-font;
+    color: $primary-color;
+  }
+}

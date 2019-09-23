@@ -259,4 +259,34 @@ header p {
   margin-bottom: 5.5rem;
 }
 
+.contact {
+  background-color: #e7526b;
+  padding-top: 4.8rem;
+}
+.contact h3 {
+  text-transform: uppercase;
+  font: 0.9rem "Open Sans", sans-serif;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+.contact p {
+  font: 0.9rem "Open Sans", sans-serif;
+  color: white;
+  margin-bottom: 2rem;
+}
+.contact a {
+  font: 0.9rem "Open Sans", sans-serif;
+  color: white;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #2e3b4e;
+}
+footer p {
+  font: 0.75rem "Open Sans", sans-serif;
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
