@@ -216,7 +216,7 @@ header {
     background-color: rgba(82, 26, 102, 0.5);
     padding-top: 6rem;
     top: 6.25rem;
-    padding-bottom: 7.5rem;
+    padding-bottom: 7rem;
 
     div {
       max-width: 46rem;
@@ -258,9 +258,45 @@ header {
         font-size: 0.75rem;
       }
     }
-
   }
 }
-.futures{
-  background-image: url(../images/features.png);
+
+.article {
+  background-image: url(../images/meal.png);
+  background-size: cover;
+  font: $main-font;
+  padding-top: 22rem;
+
+  .btn-primary {
+    width: 8.6rem;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-bottom: 2.3rem;
+    font-size: 0.8rem;
+  }
+
+  .btn-group-lg > .btn, .btn-lg {
+    line-height: 1rem;
+  }
+
+  .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    background-color: transparent;
+    border: 2px solid white;
+  }
+
+  .btn-primary.focus, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+  }
+
+  h2 {
+    font: 2.5rem $main-font;
+    color: $primary-color;
+    margin-bottom: 3rem;
+  }
+
+  p {
+    font: 0.8rem $main-font;
+    color: $primary-color;
+    margin-bottom: 5.5rem;
+  }
 }

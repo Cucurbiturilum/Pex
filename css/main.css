@@ -1,0 +1,262 @@
+header {
+  background-image: url(../images/header.png);
+  background-size: cover;
+}
+header .border-bottom {
+  margin-bottom: 7rem;
+}
+@media screen and (min-width: 1024px) {
+  header .border-bottom {
+    margin-bottom: 17rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header .border-bottom {
+    padding-left: 3rem;
+  }
+}
+header .navbar {
+  max-width: 1360px;
+}
+header .navbar-light .navbar-nav .nav-link {
+  color: white;
+  padding: 3rem 1.5rem;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1024px) {
+  header .navbar-light .navbar-nav .nav-link {
+    padding: 3rem 0.5rem;
+  }
+}
+header .navbar-light .navbar-nav .nav-link:focus, header .navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+header .form-inline {
+  background-color: #fff;
+  height: 3rem;
+  width: 15rem;
+  border-radius: 20px;
+}
+header .form-inline .form-control {
+  width: 83%;
+  border: none;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  font-size: 0.75rem;
+}
+header .form-inline .form-control:focus {
+  box-shadow: none;
+}
+header .form-inline .btn {
+  border: none;
+  padding: 0.4rem 0;
+  width: 13%;
+}
+header .form-inline .btn.focus, header .form-inline .btn:focus {
+  box-shadow: none;
+}
+header .form-inline .btn-outline-success {
+  color: #b6b6b6;
+}
+header .form-inline .btn-outline:hover {
+  background-color: transparent;
+  border: none;
+}
+header .navbar-light .navbar-toggler-icon {
+  background-image: url(../images/icon.png);
+}
+header h1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: right;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+header h1 span {
+  display: block;
+}
+header .btn-primary {
+  width: 17.5rem;
+  background-color: #8824cd;
+  border: none;
+  margin-bottom: 1.5rem;
+}
+header .btn-group-lg > .btn, header .btn-lg {
+  line-height: 2.5rem;
+}
+header .btn-primary:hover, header .btn-primary:not(:disabled):not(.disabled).active, header .btn-primary:not(:disabled):not(.disabled):active, header .show > .btn-primary.dropdown-toggle {
+  background-color: #8824cd;
+  border: none;
+}
+header .btn-primary.focus, header .btn-primary:focus, header .btn-primary:not(:disabled):not(.disabled).active:focus, header .btn-primary:not(:disabled):not(.disabled):active:focus, header .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+header p {
+  font: "Open Sans", sans-serif 0.75rem;
+  color: white;
+  margin-bottom: 15.5rem;
+}
+
+.futures {
+  background-color: #2e3b4e;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .futures {
+    padding-top: 5rem;
+    padding-bottom: 8.8rem;
+  }
+}
+.futures h3 {
+  text-transform: uppercase;
+  font: 1rem "Open Sans", sans-serif;
+  color: white;
+  margin-bottom: 2rem;
+}
+.futures p {
+  font: 0.9rem "Open Sans", sans-serif;
+  color: white;
+  margin-bottom: 4.35rem;
+  line-height: 1.5;
+}
+
+.book {
+  background-image: url(../images/book-bg.png);
+  background-size: cover;
+  font: "Open Sans", sans-serif;
+  text-align: center;
+}
+.book .pixels {
+  margin: auto;
+  top: -78px;
+}
+.book h2 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 300;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .book h2 {
+    margin-top: 7.8rem;
+  }
+}
+.book p {
+  color: white;
+  margin-bottom: 2rem;
+}
+.book .btn-primary {
+  width: 20rem;
+  background-color: #ffffff;
+  border: none;
+  color: #d54c63;
+  font-weight: 500;
+  margin-bottom: 12rem;
+}
+.book .btn-group-lg > .btn, .book .btn-lg {
+  line-height: 3.5rem;
+}
+.book .btn-primary:hover, .book .btn-primary:not(:disabled):not(.disabled).active, .book .btn-primary:not(:disabled):not(.disabled):active, .book .show > .btn-primary.dropdown-toggle {
+  background-color: #ffffff;
+  border: none;
+}
+.book .btn-primary.focus, .book .btn-primary:focus, .book .btn-primary:not(:disabled):not(.disabled).active:focus, .book .btn-primary:not(:disabled):not(.disabled):active:focus, .book .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.about .description h3 {
+  font: 0.9rem "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.about .description p {
+  font: 1.2rem "Open Sans", sans-serif;
+}
+.about .description span {
+  margin-top: 2rem;
+  display: block;
+  font: 0.9rem "Open Sans", sans-serif;
+}
+
+.experience {
+  background-image: url(../images/experience.png);
+  background-size: cover;
+  padding-bottom: 6rem;
+}
+.experience .rush {
+  background-color: rgba(82, 26, 102, 0.5);
+  padding-top: 6rem;
+  top: 6.25rem;
+  padding-bottom: 7rem;
+}
+.experience .rush div {
+  max-width: 46rem;
+}
+.experience .rush div h2 {
+  font: 2.5rem "Open Sans", sans-serif;
+  color: white;
+  margin-bottom: 2.5rem;
+}
+.experience .rush div p {
+  font: 1.25rem "Open Sans", sans-serif;
+  color: #a87bb7;
+  margin-bottom: 2rem;
+}
+.experience .rush div .btn-primary {
+  width: 17.5rem;
+  background-color: #8824cd;
+  border: none;
+  margin-bottom: 1rem;
+}
+.experience .rush div .btn-group-lg > .btn, .experience .rush div .btn-lg {
+  line-height: 2.5rem;
+}
+.experience .rush div .btn-primary:hover, .experience .rush div .btn-primary:not(:disabled):not(.disabled).active, .experience .rush div .btn-primary:not(:disabled):not(.disabled):active, .experience .rush div .show > .btn-primary.dropdown-toggle {
+  background-color: #8824cd;
+  border: none;
+}
+.experience .rush div .btn-primary.focus, .experience .rush div .btn-primary:focus, .experience .rush div .btn-primary:not(:disabled):not(.disabled).active:focus, .experience .rush div .btn-primary:not(:disabled):not(.disabled):active:focus, .experience .rush div .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.experience .rush div span {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.article {
+  background-image: url(../images/meal.png);
+  background-size: cover;
+  font: "Open Sans", sans-serif;
+  padding-top: 22rem;
+}
+.article .btn-primary {
+  width: 8.6rem;
+  background-color: transparent;
+  border: 2px solid white;
+  margin-bottom: 2.3rem;
+  font-size: 0.8rem;
+}
+.article .btn-group-lg > .btn, .article .btn-lg {
+  line-height: 1rem;
+}
+.article .btn-primary:hover, .article .btn-primary:not(:disabled):not(.disabled).active, .article .btn-primary:not(:disabled):not(.disabled):active, .article .show > .btn-primary.dropdown-toggle {
+  background-color: transparent;
+  border: 2px solid white;
+}
+.article .btn-primary.focus, .article .btn-primary:focus, .article .btn-primary:not(:disabled):not(.disabled).active:focus, .article .btn-primary:not(:disabled):not(.disabled):active:focus, .article .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.article h2 {
+  font: 2.5rem "Open Sans", sans-serif;
+  color: white;
+  margin-bottom: 3rem;
+}
+.article p {
+  font: 0.8rem "Open Sans", sans-serif;
+  color: white;
+  margin-bottom: 5.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
