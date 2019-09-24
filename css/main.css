@@ -238,7 +238,7 @@ header p {
   background-image: url(../images/meal.png);
   background-size: cover;
   font: "Open Sans", sans-serif;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 @media screen and (min-width: 1024px) {
   .article {
