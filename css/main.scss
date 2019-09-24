@@ -19,6 +19,16 @@ header {
     max-width: 1360px;
   }
 
+  .navbar-light .navbar-brand {
+    font: 2rem Arial sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #d54c63;
+  }
+  .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: #d54c63;
+  }
+
   .navbar-light .navbar-nav .nav-link {
     color: $primary-color;
     padding: 3rem 1.5rem;
@@ -265,7 +275,10 @@ header {
   background-image: url(../images/meal.png);
   background-size: cover;
   font: $main-font;
-  padding-top: 22rem;
+  padding-top: 5rem;
+  @media screen and (min-width: 1024px) {
+    padding-top: 22rem;
+  }
 
   .btn-primary {
     width: 8.6rem;
@@ -300,30 +313,36 @@ header {
     margin-bottom: 5.5rem;
   }
 }
-.contact{
+
+.contact {
   background-color: #e7526b;
   padding-top: 4.8rem;
-  h3{
+
+  h3 {
     text-transform: uppercase;
     font: 0.9rem $main-font;
     color: $primary-color;
     font-weight: 600;
     margin-bottom: 1.2rem;
   }
-  p{
+
+  p {
     font: 0.9rem $main-font;
     color: $primary-color;
     margin-bottom: 2rem;
   }
-  a{
+
+  a {
     font: 0.9rem $main-font;
     color: $primary-color;
     text-decoration: underline;
   }
 }
-footer{
+
+footer {
   background-color: #2e3b4e;
-  p{
+
+  p {
     font: 0.75rem $main-font;
     color: $primary-color;
   }
