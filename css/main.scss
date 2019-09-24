@@ -44,6 +44,9 @@ header {
     height: 3rem;
     width: 15rem;
     border-radius: 20px;
+    @media screen and (max-width: 768px) {
+      margin: auto;
+    }
 
     .form-control {
       width: 83%;

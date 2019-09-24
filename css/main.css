@@ -41,6 +41,11 @@ header .form-inline {
   width: 15rem;
   border-radius: 20px;
 }
+@media screen and (max-width: 768px) {
+  header .form-inline {
+    margin: auto;
+  }
+}
 header .form-inline .form-control {
   width: 83%;
   border: none;
